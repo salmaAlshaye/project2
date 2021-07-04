@@ -1,0 +1,163 @@
+
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family:  sans-serif;
+}
+
+
+
+.fullPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.box {
+  background-color: snow;
+  height: 60vh;
+  width: 420px;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-size: 38px;
+  margin: 22px auto;
+  background-color: #425eff;
+  color: rgb(46, 39, 39);
+}
+
+input {
+  text-align: center;
+  border: none;
+  outline: none;
+ 
+  font-size: 15px;
+  background: transparent;
+  height: 28px;
+  margin-top: 17px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+::placeholder {
+  font-size: x-large;
+  font-weight: inherit;
+}
+
+ul li {
+  list-style-type: none;
+  text-transform: capitalize;
+  color: #425eff;
+  font-weight: bold;
+}
+
+.addbutton {
+  background-color: #425eff;
+  border-color: transparent;
+  font-size: 7px;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-left: 12px;
+  transition: background-color 0.2s;
+}
+
+.addbutton:hover {
+  background-color: #07b35a;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.icon {
+  font-size: xx-large;
+  color: white;
+}
+
+.inputfield {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 27px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: large;
+}
+
+.pDeletebtn {
+  border-color: transparent;
+  background-color: snow;
+  border-radius: 50%;
+  padding: 5px 5px;
+  font-size: 7px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-right: 14px;
+  margin-top: 2px;
+  
+}
+
+.pDeletebtn .deleteBtn {
+  font-size: medium;
+}
+
+.pDeletebtn:hover {
+  color: #425eff;
+  background-color: #ff42420c;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  margin-top: 20px;
+}
+
+
+.ListContainer {
+  height: 350px;
+  overflow: hidden;
+}
+
+.ListContainer:hover {
+  overflow: auto;
+}
+
+.tabs_nav {
+  margin: auto;
+  width: 100%;
+}
+
+.tabs_nav .MuiAppBar-colorPrimary {
+  background: snow;
+  box-shadow: none;
+  color: #000;
+}
+.tabs_nav .PrivateTabIndicator-colo {
+  background-color: #425eff;
+  height: 10px;
+}
+.tabs_nav .MuiTab-root {
+  width: auto;
+}
+.tabs_nav .MuiCheckbox-colorSecondary.Mui-checked {
+  color: #425eff;
+}
+.tabs_nav .MuiTab-wrapper {
+  font-weight: 700;
+  color: #425eff;
+}
+.tabs_nav .MuiBox-root {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+  .tabs_nav .MuiTab-root {
+    min-width: 138px;
+  }
